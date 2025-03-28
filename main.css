@@ -1,17 +1,23 @@
+
 :root{
-    padding: 0;
     margin: 0;
-    display: flex;
+    padding: 0;
+   box-sizing: border-box;
 }
+
 header {
-   height: 414px;
-   width: 100%;
+min-height: 50vh;
     margin: 0;
     padding: 0;
-   background-size: 100%;
     background-image:url(./img/header.jpg);
-   
-    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    padding: 0%;
+
+       
 }
 
 .icon_burguer{
@@ -28,28 +34,38 @@ header {
 }
 
 button{
-   display: flex;
+    display: flex;
     background-color: rgb(205, 236, 226);
     width: 100px;
     text-align: center;
-    align-items: center;
-    border-radius: 80px 0 80px 0;
+    justify-content: center;
+    border-radius: 100px 0 100px 0px;
     border-color: rgb(95, 124, 114);
-    color:rgb(37, 87, 70);
+    color: #0c474b;
+    border-color: bisque;
 
 
 }
 
 h1{
    text-align: center;
-   color: rgb(37, 87, 70);
-
+    color: #0c474b; 
+text-align: justify;
+}
+h2 {
+    text-align: center;
+    color: #0c474b;
 
 }
+ .icon_1{
+  display: flex;
+  justify-content: center;
+
+ }
+
+ p {
+    text-align: center;
+    color: #0c474b;
+ }
 
 
-
-
-@media screen {
-    
-}
