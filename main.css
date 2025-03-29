@@ -16,7 +16,7 @@ html{
     background-size: cover;
     background-position: center;
     width: 100vw;
-    height: 70vh;
+    height: 100vh;
     flex-direction: column;
     font-size: 1rem;
 }
@@ -42,8 +42,7 @@ html{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    height:187px;
- 
+    height:30vh;
 }
 .caja2{
     display: flex;
@@ -51,32 +50,31 @@ html{
     justify-content: center;
     align-items: center;
     gap: 30px;
-    height: auto;
+    height: 80vh;
     width: auto;
 }
 .boton__comprar{
     background-color: #0c474b;
-    width: 200px;
-    text-align: center;
-    align-items: center;
+    width: 40vw;
     border-radius: 15px 0 15px 0px;
     border-color: rgb(95, 124, 114);
-    color:#ffe4c4;
-    border-color: #ffe4c4;
-    margin: 20%;
-    height: 50px;
-    
+    color:#bdb9b5;
+    margin: 35%;
+    height: 10vh;
+    font-size: 1.5rem;
+    margin-right:40px;
 }
 
 h1{
    text-align: center;
     color: #0c474b; 
-
+    font-size: 2.5rem;
+    gap: 15vh;
 }
+
 h2 {
     text-align: center;
     color: #0c474b;
-
 }
  .icon_1{
   justify-content: center;
@@ -97,7 +95,9 @@ h2 {
     align-items: center;
     background-color: #f0ebe5;
     padding: 50px;
-    gap:20px
+    gap:20px;
+    font-size: 1.5rem;
+    
    
 }
 .necesitas{
@@ -107,8 +107,6 @@ h2 {
     flex-direction: column;
 }
 
-
-
 .sostenible{
     display: flex;
     align-items: center;
@@ -116,8 +114,6 @@ h2 {
     flex-direction: column;
     margin: 20%;
 }
-
-
 
 .guia{
     display: flex;
@@ -131,18 +127,27 @@ h2 {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-   color: #f0ebe5; 
-   height: 80vh;
-   gap:30px
-}
-.h2__envio{
     color: #f0ebe5; 
+    height: 80vh;
+    gap:30px;
+}
+.img__envio{
+    height: 30%;
+    width: 30%;
+
+}
+.h1__envio{
+    color: white; 
+    font-size: 2.5rem;
 }
 .p__envio{
-    color: #f0ebe5; 
+    color: white; 
+    font-size: 1.5rem;
 }
 .h3__envio{
-    color: #f0ebe5; 
+    color: white; 
+    text-decoration: underline;
+    font-size: 1.5rem;
 }
 
 .disfruta{
@@ -151,12 +156,13 @@ h2 {
     justify-content: center;
     align-items: center;
     background-color: #f0ebe5;
-    padding: 50px;
     height: 80vh;
     gap: 30px;
+    font-size: 1.5rem;
+    color: #be4ea2;
 }
 .creando{
-    height: 50vh;
+    height: 100vh;
     width: 100vw;
     display:flex;
     flex-direction: column;
@@ -164,23 +170,27 @@ h2 {
     align-items: center;
 }
 .img__creando{
-    height: 150vh;
+    height: 100vh;
     width: 150vw;
 }
 .footer{
     display:flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     background-color: #0c474b;
     color: #f0ebe5;
     height: 100vh;
+   padding:  10%;
+    text-align: justify;
+    justify-content: space-around;
 }
 ol{
 list-style: none;
 color: #ffffff;
 }
 
-.h2__footer{
+.Tienda{
     color: #f0ebe5;
+    font-size: 1.5rem;
+    gap: 10%;
 }
